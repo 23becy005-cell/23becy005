@@ -1,0 +1,11 @@
+var n = 5
+
+for i in 1...n {
+    var row = ""
+
+    for _ in 1...i {
+        row += "* "
+    }
+
+    print(row)
+}
